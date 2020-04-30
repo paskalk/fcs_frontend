@@ -196,10 +196,11 @@ export default function Upload() {
 
                             <DropzoneArea 
                                 acceptedFiles={['.fcs']}       
-                                maxFileSize={30720000}                        
+                                maxFileSize={60720000}                        
                                 dropzoneText="Select files to upload"
                                 onChange={handleDropzoneChange}
                                 showPreviews={false}
+                                filesLimit={20}
                                 // onDelete={handleDropzoneChange}
                             />
 

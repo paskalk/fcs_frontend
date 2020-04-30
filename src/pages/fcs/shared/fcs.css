@@ -50,3 +50,8 @@ svg[class*='DropzoneArea-dropzoneParagraph-'] {
     float: right;
     margin-right:10px;
 }
+
+.MuiGrid-root.cluster-analyze{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
